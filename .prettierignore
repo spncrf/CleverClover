@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+**/node_modules
+
+# Build outputs
+build
+dist
+**/build
+**/dist
+
+# Cache
+.cache
+.npm
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directories
+coverage
+.nyc_output
+
+# Environment variables
+.env
+.env.*
+
+# Editor directories
+.idea
+.vscode
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
